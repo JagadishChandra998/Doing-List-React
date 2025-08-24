@@ -1,0 +1,68 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+}
+.dolist{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 3.5rem;
+  color: white;
+}
+button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-btn{
+  background-color: rgb(87, 249, 87);
+}
+.add-btn:hover{
+  background-color: rgb(58, 153, 58);
+}
+.move-btn{
+  background-color: rgb(151, 217, 244);
+}
+.move-btn:hover{
+  background-color: rgb(66, 189, 238);
+}
+.delete-btn{
+  background-color: red;
+}
+.delete-btn:hover{
+  background-color: rgb(184, 70, 70);
+}
+input[type="text"]{
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%,0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%,0.5);
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(hue, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.taxt{
+  flex: 1;
+}
+.delete-btn,.move-btn{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+} 
